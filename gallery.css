@@ -1,0 +1,26 @@
+.gallery-wrapper {
+  position: inherit;
+  width: 100%;
+  overflow: hidden;
+}
+
+#image-track {
+  display: flex;
+  gap: 4vmin;
+  /*   position: absolute;
+  left: 50%;
+  top: 250%;
+  transform: translate(0%, -50%); */
+  user-select: none; /* -- Prevent image highlighting -- */
+  position: relative;
+  margin-top: 40vmin;
+  margin-bottom: 40vmin;
+  margin-left: 20%;
+}
+
+#image-track > .image {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: 100% center;
+}
