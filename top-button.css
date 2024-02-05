@@ -1,0 +1,72 @@
+/* Top button */
+
+.top-button {
+  position: fixed;
+  top: 2.25rem;
+  right: 2.5rem;
+  z-index: 999;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.top-button .label {
+  font-size: 2rem;
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  padding-top: 0.35rem;
+  border-radius: 100%;
+  background-color: rgb(198, 198, 198);
+  cursor: pointer;
+  z-index: 20;
+  transition: 0.15s;
+}
+
+.top-button .items {
+  position: fixed;
+  top: 4rem;
+  right: 6rem;
+  transition: 0.5s ease; /* Use the 'ease' timing function for a smoother transition */
+}
+
+.top-button .items .child {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(198, 198, 198, 0.475);
+  backdrop-filter: blur(5px);
+  border-radius: 100rem;
+  position: fixed;
+  top: 1rem;
+  right: 7.5rem;
+  transition: 0.5s;
+}
+
+.top-button .items .child:nth-child(2) {
+  top: 7rem;
+  right: 2rem;
+}
+
+.top-button .items .child:nth-child(3) {
+  top: 5.25rem;
+  right: 6.5rem;
+}
+
+.top-button .items .child img {
+  width: 2rem;
+}
+
+.showMenu .child {
+  transform: none;
+  transform: translateX(2rem);
+  opacity: 0;
+  top: 2rem !important;
+  right: 4rem !important;
+}
+
+.showButton {
+  transform: rotate(45deg);
+}
