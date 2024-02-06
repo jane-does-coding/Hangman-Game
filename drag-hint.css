@@ -1,0 +1,37 @@
+.drag-hint {
+  width: 10rem;
+  background-color: transparent;
+  border-radius: 10rem;
+  height: 1.75rem;
+  border: 2px solid rgb(112, 112, 112);
+  margin: auto;
+  margin-bottom: 2rem;
+  padding: 1px;
+}
+
+.drag-hint .circle {
+  height: 100%;
+  width: auto;
+  aspect-ratio: 1/1;
+  background-color: rgb(180, 180, 180);
+  border-radius: 1rem;
+  transition: 1s;
+  margin: auto;
+  margin-left: 0;
+  animation: drag-hint-animation 5s infinite;
+}
+
+@keyframes drag-hint-animation {
+  3% {
+    background-color: rgb(180, 180, 180);
+    margin-left: 0;
+  }
+  5% {
+    background-color: rgb(81, 81, 81);
+    margin-left: 0;
+  }
+  90% {
+    margin-left: 8rem;
+    background-color: rgb(81, 81, 81);
+  }
+}

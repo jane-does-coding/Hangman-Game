@@ -2,6 +2,7 @@
   position: inherit;
   width: 100%;
   overflow: hidden;
+  height: 60vmin;
 }
 
 #image-track {
@@ -9,12 +10,12 @@
   gap: 4vmin;
   position: absolute;
   left: 25%;
-  top: 250%;
+  top: 0%;
   transform: translate(0%, -50%);
   user-select: none;
   position: relative;
   margin-top: 30vmin;
-  margin-bottom: 0vmin;
+  margin-bottom: 10vmin;
 }
 
 #image-track > .image {
