@@ -7,20 +7,32 @@
 #image-track {
   display: flex;
   gap: 4vmin;
-  /*   position: absolute;
-  left: 50%;
+  position: absolute;
+  left: 25%;
   top: 250%;
-  transform: translate(0%, -50%); */
-  user-select: none; /* -- Prevent image highlighting -- */
+  transform: translate(0%, -50%);
+  user-select: none;
   position: relative;
-  margin-top: 40vmin;
-  margin-bottom: 40vmin;
-  margin-left: 20%;
+  margin-top: 30vmin;
+  margin-bottom: 0vmin;
 }
 
 #image-track > .image {
-  width: 40vmin;
-  height: 56vmin;
+  width: 50vmin;
+  height: 50vmin;
   object-fit: cover;
   object-position: 100% center;
+  border-radius: 0.5rem;
+  object-position: center;
+}
+
+#image-track > .image:last-child {
+  opacity: 0;
+}
+
+.projects {
+  font-family: sans-serif;
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 1.75rem;
 }
