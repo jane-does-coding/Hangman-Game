@@ -11,7 +11,6 @@ const HomePage = () => {
 
       <Text />
       <SkillsSlider />
-      <br />
       <Projects />
       <br />
       <br />
