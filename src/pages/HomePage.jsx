@@ -12,11 +12,10 @@ const HomePage = () => {
       <Text />
       <SkillsSlider />
       <br />
-      {/*       <br />
       <Projects />
       <br />
       <br />
-      <About />
+      {/*  <About />
       <br />
       <br /> */}
     </div>

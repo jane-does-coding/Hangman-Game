@@ -6,22 +6,19 @@ const Projects = () => {
     <>
       <div className="projects">
         <div className="box">
-          <img src="https://picsum.photos/200/300" alt="" />
+          <img src="/airbnb.png" alt="" />
         </div>
         <div className="box">
-          <img src="https://picsum.photos/200/300" alt="" />
+          <img src="/insta.png" alt="" />
         </div>
         <div className="box">
-          <img src="https://picsum.photos/200/300" alt="" />
+          <img src="/pomodoro.png" alt="" />
         </div>
         <div className="box">
-          <img src="https://picsum.photos/200/300" alt="" />
+          <img src="/tic-tac-toe.png" alt="" />
         </div>
         <div className="box">
-          <img src="https://picsum.photos/200/300" alt="" />
-        </div>
-        <div className="box">
-          <img src="https://picsum.photos/200/300" alt="" />
+          <img src="/todo-list.png" alt="" />
         </div>
       </div>
     </>
