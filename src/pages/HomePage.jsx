@@ -14,9 +14,9 @@ const HomePage = () => {
       <Projects />
       <br />
       <br />
-      {/*  <About />
+      <About />
       <br />
-      <br /> */}
+      <br />
     </div>
   );
 };
