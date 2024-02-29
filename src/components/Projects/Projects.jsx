@@ -43,6 +43,15 @@ const Projects = () => {
           <img src="/todo-list.png" alt="" />
           <span>Todo List</span>
         </Link>
+        <Link
+          to={
+            "https://github.com/YevheniiaSimaka/beautiful-modern-landing-page"
+          }
+          className="box"
+        >
+          <img src="/landing-page.png" alt="" />
+          <span>Modern Landing Page Design</span>
+        </Link>
       </div>
     </>
   );
